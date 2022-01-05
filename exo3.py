@@ -2,12 +2,15 @@ def ajouter_elt(lst=[0, 1, 2], elt=3):
     lst.append(elt)
     return lst
 
+
 l1, l2 = ajouter_elt(), ajouter_elt()
 print(l1, id(l1))
 print(l2, id(l2))
+
+
 # Les IDs sont les même, il s'agit donc du même objet.
 
-def add_char(ch = "abc", elt = 'd'):
+def add_char(ch="abc", elt='d'):
     return ch + elt
 
 
